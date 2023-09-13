@@ -1,11 +1,22 @@
 import nexys from "./nexys.js";
 
+// Initialize nexys
 nexys.init();
 
+// Subscribe to log.add event
+nexys.Events.subscribe("log.add", (data) => {
+  console.log("log added!", data);
+});
+
+// Subscribe to request.error event
+nexys.Events.subscribe("request.error", (data) => {
+  console.log("request error!", data);
+});
+
 function sum(a: number, b: number): number {
+  // Add log to the log pool
   nexys.log({ type: "sum", a, b });
-  console.log("logged in nexys.");
-  console.log("nexys.getLogPoolLogs();", nexys.getLogPoolLogs());
+  // Send a forced request to the server
   nexys.forceRequest();
   return a + b;
 }
