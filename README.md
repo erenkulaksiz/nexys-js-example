@@ -2,7 +2,7 @@
 
 This repo contains these examples:
 
-- [JavaScriot](./javascript)
+- [JavaScript](./javascript)
 - [React](./react)
 - [NextJS](./nextjs)
 - [NodeJS](./nodejs)
