@@ -1,0 +1,26 @@
+{
+  "name": "nexys-nodejs-example",
+  "version": "1.0.0",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "start": "node build/index.js",
+    "build": "tsc",
+    "bs": "npm run build && npm run start",
+    "dev": "tsc-watch --onSuccess tsc",
+    "dev:watch": "tsc-watch --onSuccess \"npm run start\""
+  },
+  "files": [
+    "build"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.6.0",
+    "tsc-watch": "^6.0.4",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "nexys": "^1.1.0"
+  }
+}
