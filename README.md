@@ -2,10 +2,10 @@
 
 This repo contains these examples:
 
-- JavaScript
-- React
-- NextJS
-- NodeJS
+- [JavaScriot](./javascript)
+- [React](./react)
+- [NextJS](./nextjs)
+- [NodeJS](./nodejs)
 - React Native
 
 Other than `JavaScript` example code, all other examples are uses `TypeScript`.

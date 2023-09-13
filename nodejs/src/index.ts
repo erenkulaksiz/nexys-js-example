@@ -16,4 +16,6 @@ sum(5, 4);
 // This code will not going to send a request to the server.
 
 // To send a request to the server, you have these options:
-// - nexys.forceRequest();
+// - nexys.forceRequest(); - https://docs.nexys.app/functions/force-request
+// - logPoolSize - https://docs.nexys.app/configuration/logpool-size
+// - sendAllOnType - https://docs.nexys.app/configuration/send-all-on-type
