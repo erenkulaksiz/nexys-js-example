@@ -7,5 +7,6 @@ This repo contains these examples:
 - [NextJS](./nextjs)
 - [NodeJS](./nodejs)
 - [React Native](./react-native)
+- [Electron](./electron)
 
-Other than `JavaScript` example code, all other examples uses `TypeScript`.
+Other than `JavaScript` and `Electron` example code, all other examples uses `TypeScript`.
