@@ -6,6 +6,6 @@ This repo contains these examples:
 - [React](./react)
 - [NextJS](./nextjs)
 - [NodeJS](./nodejs)
-- React Native
+- [React Native](./react-native)
 
-Other than `JavaScript` example code, all other examples are uses `TypeScript`.
+Other than `JavaScript` example code, all other examples uses `TypeScript`.
