@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href="./style.css" rel="stylesheet">
+    <link href="./reset.css" rel="stylesheet">
+    <title>Hello World!</title>
+    <script src="https://cdn.jsdelivr.net/gh/erenkulaksiz/nexys/packages/nexys/bundle.min.js"></script>
+    <script src="./nexys.js"></script>
+  </head>
+  <body>
+    <h1>Nexys Electron Example</h1>
+    <div class="btn-container">
+      <button onclick="clearLogs()">Clear</button>
+      <button onclick="onLog()">Test log</button>
+      <button onclick="onErrorLog()">Error Log</button>
+      <button onclick="subscribe()">Subscribe to "log.add"</button>
+    </div>
+  </body>
+</html>
