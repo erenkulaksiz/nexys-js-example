@@ -63,7 +63,6 @@ export default function App(): JSX.Element {
         style={backgroundStyle}>
         <View
           style={{
-            backgroundColor: isDarkMode ? Colors.black : Colors.white,
             flexDirection: 'column',
             gap: 4,
           }}>
