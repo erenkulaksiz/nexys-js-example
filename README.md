@@ -4,6 +4,7 @@ This repo contains these examples:
 
 - [JavaScript](./javascript)
 - [React](./react)
+- [Vue](./vue)
 - [NextJS](./nextjs)
 - [NodeJS](./nodejs)
 - [React Native](./react-native)
