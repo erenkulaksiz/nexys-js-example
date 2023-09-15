@@ -1,0 +1,36 @@
+body, #app {
+	display: flex;
+	flex-direction: column;
+	padding: 12px;
+	gap: 1rem;
+}
+
+.btn-container {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+	flex-wrap: wrap;
+}
+
+button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
+	border: 0;
+	cursor: pointer;
+	font-size: 1.6rem;
+	border-radius: 12px;
+}
+
+button:hover {
+	opacity: .6;
+}
+
+button:active {
+	opacity: .8;
+}
+
+h1 {
+	font-size: 2rem;
+}
